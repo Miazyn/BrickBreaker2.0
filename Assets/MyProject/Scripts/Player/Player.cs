@@ -8,6 +8,7 @@ public class Player : MonoBehaviour
     //Max 10 Highscores can be saved
     public int[] Scores;
 
+
     private void Awake()
     {
         if(instance == null)
